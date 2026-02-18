@@ -2,3 +2,5 @@
 screenshots/
 *.swp
 *~
+.claude/
+papers/paper abstracts/

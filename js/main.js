@@ -26,9 +26,7 @@ function loadLatestPapers(containerId, count) {
         var titleHtml = href
           ? '<a href="' + href + '" target="_blank">' + p.title + '</a>'
           : p.title;
-        var venue = p.venueDetail
-          ? '<em>' + p.venue + '</em>, ' + p.venueDetail
-          : '<em>' + p.venue + '</em>';
+        var venue = '<em>' + p.venue + '</em>';
         html += '<div class="latest-paper-item">' +
           '<div class="latest-paper-title">' + titleHtml + '</div>' +
           '<div class="latest-paper-venue">' + venue + ' (' + p.year + ')</div>' +
